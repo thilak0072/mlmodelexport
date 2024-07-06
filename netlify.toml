@@ -1,4 +1,15 @@
 [build]
-  functions = "functions"
   command = "pip install -r requirements.txt && python api.py"
-  publish = "public"
+  publish = "public"
+
+[[redirects]]
+  from = "/predict"
+  to = "/predict"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/predict/graph"
+  to = "/predict/graph"
+  status = 200
+  force = true
