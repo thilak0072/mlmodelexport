@@ -1,6 +1,6 @@
 [build]
   command = "pip install -r requirements .txt && python api.py"
-  publish = "C:\Users\rajth\OneDrive\Documents\GitHub\mlmodelexport"
+  publish = "public"
 [[redirects]]
   from = "/api/*"
   to = "/api/index.py"
