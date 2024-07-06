@@ -1,8 +1,8 @@
 [build]
-  command ="pip install -r requirements.txt && python api.py"
-  publish ="public"
-  [[redirects]]
-    from = "/api/*"
-    to = "/api/index.py"
-    status = 200
-    force = true
+  command = "pip install -r requirements .txt && python api.py"
+  publish = "C:\Users\rajth\OneDrive\Documents\GitHub\mlmodelexport"
+[[redirects]]
+  from = "/api/*"
+  to = "/api/index.py"
+  status = 200
+  force = true
