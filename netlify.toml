@@ -1,8 +1,9 @@
 [build]
   command = "pip install -r requirements .txt && python api.py"
   publish = "public"
+  functions = "functions"
 [[redirects]]
   from = "/api/*"
-  to = "/api/index.py"
+  to =  "/.netlify/functions/:splat"
   status = 200
   force = true
